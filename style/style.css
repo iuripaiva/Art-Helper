@@ -42,7 +42,7 @@ main {
     width: 40vw;
     max-width: 40vw;
     height: 74vh;
-    transform: translate(0rem, 6rem);
+    transform: translate(0rem, 3rem);
     justify-content: center;
     border-radius: 40px;
     box-shadow: 10px 10px 31px black;
@@ -136,7 +136,7 @@ main {
   text-shadow: none;
   transform-style: preserve-3d;
   transform: perspective(1000px);
-  margin-top: -4rem;
+  margin-top: -3rem;
 }
 
 .art__data {
@@ -253,7 +253,7 @@ img.art__fake {
 footer {
   color: var(--white);
   text-shadow: 1px 1px 2px black;
-  transform: translate(0rem, 10rem);
+  transform: translate(0rem, 8rem);
   transition: all 0.5s ease;
 }
 

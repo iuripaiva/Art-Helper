@@ -1,12 +1,6 @@
 import config from "./config.js";
 const API_Key = config;
 
-function show(shown, hidden) { // Function used to hide or show the second window with the art info
-  document.getElementById(shown).style.display = "block";
-  document.getElementById(hidden).style.display = "none";
-  return false;
-}
-
 const authorName = document.querySelector(".art__author");
 const artName = document.querySelector(".art__name");
 const RealArt = document.querySelector(".art__real");

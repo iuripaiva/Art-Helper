@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style/style.css" />
 
     <!--Script-->
-    <script defer type='module' src="js/script.js"></script>
+    <script defer type="module" src="js/script.js"></script>
 
     <title>Art Helper</title>
   </head>
@@ -107,5 +107,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script>
+      function show(shown, hidden) { // Function used to hide or show the second window with the art info
+        document.getElementById(shown).style.display = "block";
+        document.getElementById(hidden).style.display = "none";
+        return false;
+      }
+    </script>
   </body>
 </html>

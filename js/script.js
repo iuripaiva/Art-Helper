@@ -4,7 +4,7 @@ function show(shown, hidden) { // Function used to hide or show the second windo
   return false;
 }
 
-import config from "/config.js";
+import config from "/js/config.js"";
 const API_Key = config.API_KEY;
 
 const authorName = document.querySelector(".art__author");

@@ -3,7 +3,8 @@
 
 ## How to use: 
   
-- Search for ACNH art pieces by name and verify if it's true or fake. Just type the name of the art piece you want to search and press enter or click the 'search' button;
+- Whenever Jolly Redd comes to your island selling his suspicious art pieces, access this website and check if they are genuine or fake.
+- Just type the name of the art piece you want to search and press enter or click the 'search' button.
 
 <p align="center">
   <img src="screenshot1.png" width="500" title="Home Screen" alt="Home Screen">

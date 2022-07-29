@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Links-->
+    <link rel="icon" href="img/jolly.svg" />
+    <link rel="stylesheet" href="style/style.css" />
+
+    <!--Script-->
+    <script defer type='text/javascript' src="js/script.js"></script>
+    <script type='text/javascript' src='js/config.js'></script>
+
+    <title>Art Helper</title>
+  </head>
+  <body>
+    <main>
+      <div id="Page1">
+        <img
+          src="img/jolly.svg"
+          alt="Art Helper Logo"
+          class="arthelper__logo"
+          data-tilt
+          data-tilt-reverse="true"
+          data-tilt-max="30"
+          data-tilt-speed="5000"
+        />
+        <div class="title">
+          <span>Art Helper</span>
+        </div>
+        <h2>No more scams.</h2>
+        <form class="form" action="" method="post">
+          <input
+            type="text"
+            class="input__search"
+            placeholder="Type here the art name."
+            required
+          />
+          <button
+            type="submit"
+            class="button button__search"
+            name="Search Button"
+          >
+        </form>
+        <div class="button__area">
+          
+            Search
+          </button>
+        </div>
+      </div>
+      <div
+        id="Page2"
+        style="display: none"
+        data-tilt
+        data-tilt-reverse="true"
+        data-tilt-max="5"
+        data-tilt-speed="3000"
+      >
+        <h1 class="art__data">
+          <span class="art__author"></span>'s -
+          <span class="art__name"></span>
+        </h1>
+        <div class="row">
+          <div class="images">
+            <img
+              src="#"
+              loading="lazy"
+              alt="Real Art Miniature"
+              class="art__real"
+            />
+            <img
+              src="#"
+              loading="lazy"
+              alt="Fake Art Miniature"
+              class="art__fake"
+            />
+          </div>
+          <div class="realfake"><span>Real</span> <span class="span__fake">Fake</span></div>
+          <div class="art__details">
+            <div class="art__authenticity"></div>
+            <div class="art__description"></div>
+            <div class="selling">
+              Buying Price: <span class="art__price"></span
+              ><img src="img/bell.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="button__area">
+          <button
+            class="button"
+            onclick="show('Page1','Page2')"
+            name="Search Button"
+          >
+            Go Back
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      Made with &#10084;&#65039; by
+      <a href="https://github.com/iuripaiva" target="_blank">Iuri Paiva</a>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.js"
+      integrity="sha512-5RPueBRwDHxZ362heK/fya6Azw6ayHtn7nTqZnIoGFjiXdGAEvAjKco/FvzpTEIbfJI2Qxirl0/g21qizV/a/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

@@ -1,11 +1,11 @@
+import config from "./config.js";
+const API_Key = config.API_KEY;
+
 function show(shown, hidden) { // Function used to hide or show the second window with the art info
   document.getElementById(shown).style.display = "block";
   document.getElementById(hidden).style.display = "none";
   return false;
 }
-
-import config from "../js/config.js";
-const API_Key = config.API_KEY;
 
 const authorName = document.querySelector(".art__author");
 const artName = document.querySelector(".art__name");

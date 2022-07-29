@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 24px;
+        fill: #f8f4dc;
+        text-anchor: middle;
+        font-family: SeuratPro-B, "FOT-Seurat Pro";
+      }
+    </style>
+  </defs>
+  <text id="ALWAYS_GENUINE" data-name="ALWAYS GENUINE" class="cls-1" x="64" y="56.823"><tspan x="64">ALWAYS</tspan><tspan x="64" dy="28.8">GENUINE</tspan></text>
+</svg>

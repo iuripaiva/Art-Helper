@@ -9,6 +9,7 @@
 <p align="center">
   <img src="screenshot1.png" width="500" title="Home Screen" alt="Home Screen">
   <img src="screenshot2.png" width="500" title="Art Info Screen" alt="Art Info Screen">
+  <img src="ArtHelper.gif" width="500" title="Art Info Usage Demonstration" alt="Art Info Usage Demonstration">
 </p>
 
 

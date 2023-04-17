@@ -49,16 +49,17 @@ const renderArt = async () => {
   ) {
     authorName.innerHTML = data.author;
     artName.innerHTML = data.art_name;
-    RealArt.src = data.image_url;
+    RealArt.src = data.real_info.texture_url;
     if (data.has_fake) { // Check if the searched art piece contains a fake version.
-      FakeArt.src = data.fake_image_url;
+      FakeArt.src = data.fake_info.texture_url;
       document.querySelector(".span__fake").innerHTML = 'Fake'; // If so, the text "Fake" will appear normally
+      artAuthenticity.innerHTML = data.fake_info.description;
     } else {
       FakeArt.src = 'img/genuine.svg';
       document.querySelector(".span__fake").innerHTML = '<del>Fake</del>'; // If not, the "Fake" text will switch to a scratched version.
+      artAuthenticity.innerHTML = "This art is always genuine.";
     }
-    artAuthenticity.innerHTML = data.authenticity;
-    artDescription.innerHTML = data.description;
+    artDescription.innerHTML = data.real_info.description;
     artPrice.innerHTML = data.buy;
     show("Page2", "Page1");
     input.value = "";

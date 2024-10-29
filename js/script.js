@@ -15,7 +15,7 @@ const input = document.querySelector(".input__search");
 const fetchArt = async () => {
   
   const APIResponse = await fetch(
-    `https://api.nookipedia.com/nh/art?api_key=${API_Key}`
+    `https://api.nookipedia.com/nh/art?api_key=0a283467-aec0-4c49-ad32-72b98ae5cfe4`
   );
 
   const data = await APIResponse.json();
